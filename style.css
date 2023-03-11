@@ -45,6 +45,7 @@ body{
 }
 
 .content{
+	display: none;
 	position: fixed;
 	top: %;
 	left: 23%;
