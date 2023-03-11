@@ -4,13 +4,19 @@
 <body style="background: #fff;">
 <ul class="sidebar">
 <a href="https://suntrise.github.io/pwd-museum"><li>←</li></a>
-<a href=""><li>恺撒移位式密码法</li></a>
-<a href=""><li>一般字母替代式密码法</li></a>
+<li onclick="javascript:caesar.style.display='block';normal.style.display='none'">恺撒移位式密码法</li>
+<li onclick="javascript:caesar.style.display='none';normal.style.display='block'">一般字母替代密码法</li>
+<li onclick="javascript:caesar.style.display='none';normal.style.display='block'"><b>页面正在施工中……</b></li>
 </ul>
-<div style="position: absolute;left: 23%;">
+<div id="caesar" style="position: absolute;left: 23%;">
 <h1>恺撒移位式密码法</h1>
 <h3>简介</h3>
 苏东尼乌斯（Suetonius）写于公元 2 世纪的《十二帝王传》详细记载了恺撒常用的一种替代式密码法。这位罗马皇帝把信息内容的字母一改成比它后三位的字母，例如将 A 写成 D，将 B 写成 E。因此，这类替代法（即密码字母集相对于明文字母集挪移了一定数目的位置）通常被称为恺撒移位式密码法或简称恺撒密码法。
+</div>
+<div id="normal" style="display:none;position: absolute;left: 23%;">
+<h1>一般字母替代密码法</h1>
+<h3>简介</h3>
+与恺撒密码只是简单的字母移位不同，这种密码法将明文字母替换成任意的字母（数字，或符号），这种做法与恺撒密码相比增加了密钥的组合，大大提高了安全性。
 </div>
 </body>
 
