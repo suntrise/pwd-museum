@@ -1,0 +1,44 @@
+body{
+	font-size: 15px;
+	background: #6bf3;
+}
+.homebt{
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 6px 6px #aaa;
+}
+.homebt:hover{
+	box-shadow: 0 0 10px 10px #aaa;
+}
+
+.sidebar{
+	position: fixed;
+	top: -2%;
+	left: -2%;
+	height: 98%;
+	width: 20%;
+	font-size: 25px;
+	border-right: 2px solid #000;
+}
+
+.sidebar a{
+	padding: 5px;
+	border-right: 5px #000;
+	color: #000;
+	text-decoration:none;
+
+}
+.sidebar li{
+	padding: 5px;
+	border-right: 5px #000;
+	list-style:none;
+
+}
+.sidebar li:hover{
+	list-style:none;
+	border: 2px solid #eee;
+}
