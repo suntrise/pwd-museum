@@ -1,5 +1,5 @@
 body{
-	font-size: 15px;
+	font-size: 18px;
 	background: #6bf3;
 }
 .homebt{
@@ -33,7 +33,7 @@ body{
 
 }
 .sidebar li{
-	padding: 10px;
+	padding: 15px;
 	border-bottom: 1px solid #000;
 	border-right:;
 	list-style:none;
