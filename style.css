@@ -1,5 +1,5 @@
 body{
-	font-size: 20px;
+	font-size: 15px;
 	background: #6bf3;
 }
 .homebt{
@@ -42,4 +42,12 @@ body{
 .sidebar li:hover{
 	list-style:none;
 	background: #eee;
+}
+
+.content{
+	position: fixed;
+	top: %;
+	left: 23%;
+	right: 2%;
+	font-size: 20px;
 }
